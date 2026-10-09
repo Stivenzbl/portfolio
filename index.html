@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Braian Steven Martinez Zabala | Full Stack Developer</title>
+  <meta name="description" content="Portafolio de Braian Steven Martinez Zabala (@Stivenzbl) - Desarrollador Full Stack (Next.js, React, Node.js, TypeScript, PHP, Python, MongoDB, Firebase).">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              500: '#10b981',
+              600: '#059669',
+              700: '#047857',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .gradient-text {
+      background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen selection:bg-emerald-500 selection:text-white">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="text-xl font-bold tracking-tight">
+        <span class="text-emerald-400">&lt;</span>Stivenzbl<span class="text-emerald-400">/&gt;</span>
+      </a>
+      <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+        <a href="#experiencia" class="hover:text-emerald-400 transition-colors">Experiencia</a>
+        <a href="#proyectos" class="hover:text-emerald-400 transition-colors">Proyectos Reales</a>
+        <a href="https://github.com/Stivenzbl" target="_blank" class="hover:text-emerald-400 transition-colors flex items-center gap-1.5">
+          <i data-lucide="github" class="w-4 h-4"></i> GitHub
+        </a>
+        <a href="#contacto" class="px-4 py-2 rounded-full bg-emerald-500 text-slate-950 font-semibold hover:bg-emerald-400 transition-all shadow-lg shadow-emerald-500/20">Contáctame</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="pt-36 pb-20 px-6 max-w-6xl mx-auto">
+    <div class="max-w-3xl">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold mb-6">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        Disponible para posiciones Full Stack & Backend (Remoto)
+      </div>
+      <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6">
+        Hola, soy <span class="gradient-text">Braian Steven</span>.<br>
+        Full Stack Developer & Cloud Builder.
+      </h1>
+      <p class="text-lg text-slate-400 leading-relaxed mb-8">
+        Desarrollador con experiencia sólida en arquitecturas web modernas con 
+        <strong class="text-slate-200">TypeScript, Next.js, React, Node.js, Express, PHP, Python, MongoDB y Firebase</strong>. Especialista en automatizaciones y despliegues en producción con un récord de resolución de 20 a 80 tareas diarias bajo Kanban.
+      </p>
+
+      <div class="flex flex-wrap gap-4 items-center">
+        <a href="#proyectos" class="px-6 py-3 rounded-xl bg-emerald-500 text-slate-950 font-bold hover:bg-emerald-400 transition-all shadow-lg shadow-emerald-500/25 flex items-center gap-2">
+          <i data-lucide="layers" class="w-4 h-4"></i> Ver Proyectos & Demos
+        </a>
+        <a href="https://github.com/Stivenzbl" target="_blank" class="px-6 py-3 rounded-xl glass-card hover:bg-slate-800 transition-all flex items-center gap-2 text-slate-200">
+          <i data-lucide="github" class="w-4 h-4"></i> GitHub @Stivenzbl
+        </a>
+        <a href="https://wa.me/573113799206" target="_blank" class="px-6 py-3 rounded-xl bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600/30 transition-all flex items-center gap-2">
+          <i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp (+57 311 379 9206)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Métricas Destacadas -->
+  <section class="max-w-6xl mx-auto px-6 py-10">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="glass-card p-6 rounded-2xl border border-slate-800/80">
+        <div class="text-3xl font-black text-emerald-400 mb-1">+80</div>
+        <div class="text-xs text-slate-400 font-medium">Tareas/Tickets Diarios (Kanban)</div>
+      </div>
+      <div class="glass-card p-6 rounded-2xl border border-slate-800/80">
+        <div class="text-3xl font-black text-blue-400 mb-1">6 Repos</div>
+        <div class="text-xs text-slate-400 font-medium">Proyectos Públicos en GitHub</div>
+      </div>
+      <div class="glass-card p-6 rounded-2xl border border-slate-800/80">
+        <div class="text-3xl font-black text-emerald-400 mb-1">Turborepo</div>
+        <div class="text-xs text-slate-400 font-medium">Arquitecturas Monorepo Escalables</div>
+      </div>
+      <div class="glass-card p-6 rounded-2xl border border-slate-800/80">
+        <div class="text-3xl font-black text-purple-400 mb-1">Full Stack</div>
+        <div class="text-xs text-slate-400 font-medium">Henry + Mastermind Cert.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section id="experiencia" class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-2xl font-bold tracking-tight mb-8 flex items-center gap-3">
+      <i data-lucide="briefcase" class="w-6 h-6 text-emerald-400"></i> Experiencia Laboral
+    </h2>
+
+    <div class="space-y-6">
+      <div class="glass-card p-8 rounded-2xl border border-slate-800">
+        <div class="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
+          <div>
+            <h3 class="text-xl font-bold text-slate-100">Desarrollador Full Stack</h3>
+            <p class="text-emerald-400 font-medium text-sm">PRL Coll • Remoto / Colombia</p>
+          </div>
+          <span class="text-xs font-semibold px-3 py-1 bg-slate-800 text-slate-300 rounded-full w-fit">3 Meses</span>
+        </div>
+        <ul class="text-slate-400 space-y-2 text-sm">
+          <li class="flex items-start gap-2">
+            <span class="text-emerald-400 mt-1">▸</span>
+            Desarrollo integral de funcionalidades frontend y backend utilizando PHP, JavaScript, CSS3 y MySQL.
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-emerald-400 mt-1">▸</span>
+            Automatización de pipelines con scripts en Python para sincronización de bases de datos, consumo de APIs y envíos por correo.
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-emerald-400 mt-1">▸</span>
+            Despliegues continuos a producción y control de versiones colaborativo con Git y GitHub.
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-emerald-400 mt-1">▸</span>
+            Resolución de un promedio de 20 a 80 tareas diarias sobre plataforma interna basada en Kanban en PHP.
+          </li>
+        </ul>
+      </div>
+
+      <div class="glass-card p-8 rounded-2xl border border-slate-800">
+        <div class="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
+          <div>
+            <h3 class="text-xl font-bold text-slate-100">Líder de Operaciones & Barra</h3>
+            <p class="text-blue-400 font-medium text-sm">Okames Chuche • Cajicá, Cundinamarca</p>
+          </div>
+          <span class="text-xs font-semibold px-3 py-1 bg-slate-800 text-slate-300 rounded-full w-fit">6 Meses</span>
+        </div>
+        <p class="text-slate-400 text-sm">
+          Liderazgo operativo en turnos de alto volumen de trabajo, administración de inventarios críticos, generación de reportes diarios de producción y servicio al cliente de excelencia.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos Reales -->
+  <section id="proyectos" class="max-w-6xl mx-auto px-6 py-16">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+      <div>
+        <h2 class="text-2xl font-bold tracking-tight flex items-center gap-3">
+          <i data-lucide="layers" class="w-6 h-6 text-emerald-400"></i> Proyectos Reales & Despliegues
+        </h2>
+        <p class="text-slate-400 text-sm mt-1">Código en GitHub y aplicaciones desplegadas en producción.</p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- MateCode Tasks (Proyecto M4) -->
+      <div class="glass-card rounded-2xl overflow-hidden border border-slate-800 flex flex-col justify-between hover:border-emerald-500/50 transition-all group">
+        <div class="p-6">
+          <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-4">
+            <i data-lucide="check-square" class="w-5 h-5"></i>
+          </div>
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="text-lg font-bold text-slate-100 group-hover:text-emerald-400 transition-colors">MateCode Tasks</h3>
+            <span class="text-[10px] bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded-full font-bold">Producción</span>
+          </div>
+          <p class="text-slate-400 text-xs leading-relaxed mb-4">
+            Gestor estratégico de tareas colaborativo con tableros interactivos Drag & Drop, autenticación OAuth, base de datos en tiempo real con Cloud Firestore y mailing transaccional con AWS SES.
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-4">
+            <span class="px-2 py-0.5 text-[10px] bg-slate-800 text-emerald-400 rounded">React 18</span>
+            <span class="px-2 py-0.5 text-[10px] bg-slate-800 text-blue-400 rounded">TypeScript</span>
+            <span class="px-2 py-0.5 text-[10px] bg-slate-800 text-orange-400 rounded">Firestore</span>
+            <span class="px-2 py-0.5 text-[10px] bg-slate-800 text-yellow-400 rounded">AWS SES</span>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex flex-col gap-2">
+          <a href="https://proyectom-4.vercel.app" target="_blank" class="w-full py-2 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold rounded-lg text-xs transition-all flex items-center justify-center gap-1.5">
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i> Abrir App en Vercel
+          </a>
+          <a href="https://github.com/Stivenzbl/PROYECTOM4" target="_blank" class="w-full py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold rounded-lg text-xs transition-all flex items-center justify-center gap-1.5">
+            <i data-lucide="github" class="w-3.5 h-3.5"></i> Repositorio GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- Propiety Horizon -->
+      <div class="glass-card rounded-2xl overflow-hidden border border-slate-800 flex flex-col justify-between hover:border-blue-500/50 transition-all group">
+        <div class="p-6">
+          <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center mb-4">
+            <i data-lucide="building" class="w-5 h-5"></i>
+          </div>
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="text-lg font-bold text-slate-100 group-hover:text-blue-400 transition-colors">Propiety Horizon</h3>
+            <span class="text-[10px] bg-blue-500/20 text-blue-300 px-2 py-0.5 rounded-full font-bold">Monorepo</span>
+          </div>
+          <p class="text-slate-400 text-xs leading-relaxed mb-4">
+            Monorepo escalable con Turborepo para copropiedades y condominios. Frontend Next.js App Router y Backend Express API con MongoDB (Mongoose) y Prisma ORM.
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-4">
+            <span class="px-2 py-0.5 text-[10px] bg-slate-800 text-blue-400 rounded">Next.js 15</span>
+            <span class="px-2 py-0.5 text-[10px] bg-slate-800 text-indigo-400 rounded">Express</span>
+            <span class="px-2 py-0.5 text-[10px] bg-slate-800 text-green-400 rounded">MongoDB</span>
+            <span class="px-2 py-0.5 text-[10px] bg-slate-800 text-cyan-400 rounded">Prisma</span>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex flex-col gap-2">
+          <a href="https://github.com/Stivenzbl/PROPIETY-HORIZON" target="_blank" class="w-full py-2 bg-blue-500 hover:bg-blue-400 text-slate-950 font-bold rounded-lg text-xs transition-all flex items-center justify-center gap-1.5">
+            <i data-lucide="github" class="w-3.5 h-3.5"></i> Ver Monorepo en GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- PIM3 AI Chat Serverless -->
+      <div class="glass-card rounded-2xl overflow-hidden border border-slate-800 flex flex-col justify-between hover:border-purple-500/50 transition-all group">
+        <div class="p-6">
+          <div class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center mb-4">
+            <i data-lucide="bot" class="w-5 h-5"></i>
+          </div>
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="text-lg font-bold text-slate-100 group-hover:text-purple-400 transition-colors">PIM3 AI Chat</h3>
+            <span class="text-[10px] bg-purple-500/20 text-purple-300 px-2 py-0.5 rounded-full font-bold">22 Tests</span>
+          </div>
+          <p class="text-slate-400 text-xs leading-relaxed mb-4">
+            Chat interactivo Serverless integrado con el Gateway OpenRouter API para acceder a modelos de lenguaje avanzados. Implementado con Vercel Functions y suite Vitest.
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-4">
+            <span class="px-2 py-0.5 text-[10px] bg-slate-800 text-purple-400 rounded">OpenRouter API</span>
+            <span class="px-2 py-0.5 text-[10px] bg-slate-800 text-emerald-400 rounded">Serverless</span>
+            <span class="px-2 py-0.5 text-[10px] bg-slate-800 text-pink-400 rounded">Vitest</span>
+          </div>
+        </div>
+        <div class="p-6 pt-0 flex flex-col gap-2">
+          <a href="https://proyecto-m3-stiven-zabala-mjgfd0w6y-stivenzbls-projects.vercel.app/" target="_blank" class="w-full py-2 bg-purple-500 hover:bg-purple-400 text-slate-950 font-bold rounded-lg text-xs transition-all flex items-center justify-center gap-1.5">
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i> Abrir Chat en Vivo
+          </a>
+          <a href="https://github.com/Stivenzbl/ProyectoM3-StivenZabala" target="_blank" class="w-full py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold rounded-lg text-xs transition-all flex items-center justify-center gap-1.5">
+            <i data-lucide="github" class="w-3.5 h-3.5"></i> Repositorio GitHub
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contacto / CTA -->
+  <section id="contacto" class="max-w-6xl mx-auto px-6 py-20 text-center">
+    <div class="glass-card p-12 rounded-3xl border border-slate-800 max-w-3xl mx-auto">
+      <h2 class="text-3xl font-extrabold text-white mb-4">¿Listo para sumar valor técnico a tu equipo?</h2>
+      <p class="text-slate-400 text-sm mb-8">
+        Disponible para posiciones de Desarrollador Full Stack, Backend o Frontend remoto.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="mailto:stivenzabalab@gmail.com" class="px-6 py-3 rounded-xl bg-emerald-500 text-slate-950 font-bold hover:bg-emerald-400 transition-all flex items-center gap-2">
+          <i data-lucide="mail" class="w-4 h-4"></i> Enviar Correo
+        </a>
+        <a href="https://wa.me/573113799206" target="_blank" class="px-6 py-3 rounded-xl bg-slate-800 text-slate-100 font-semibold hover:bg-slate-700 transition-all flex items-center gap-2">
+          <i data-lucide="phone" class="w-4 h-4"></i> WhatsApp Directo (+57 311 379 9206)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-900 py-8 text-center text-xs text-slate-500">
+    © 2026 Braian Steven Martinez Zabala • GitHub: @Stivenzbl
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
